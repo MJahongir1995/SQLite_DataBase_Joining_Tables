@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment3">
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="uz.jahongir.sqlite_database_joining_tables.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/salesmanFragment"
+        android:name="uz.jahongir.sqlite_database_joining_tables.fragments.SalesmanFragment"
+        android:label="fragment_salesman"
+        tools:layout="@layout/fragment_salesman" />
+    <fragment
+        android:id="@+id/customerFragment"
+        android:name="uz.jahongir.sqlite_database_joining_tables.fragments.CustomerFragment"
+        android:label="fragment_customer"
+        tools:layout="@layout/fragment_customer" />
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="uz.jahongir.sqlite_database_joining_tables.fragments.BookingFragment"
+        android:label="fragment_booking"
+        tools:layout="@layout/fragment_booking" />
+</navigation>
